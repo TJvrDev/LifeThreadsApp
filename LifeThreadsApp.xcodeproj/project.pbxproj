@@ -21,6 +21,11 @@
 		668B648C19B7AB1200DF808C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668B646E19B7AB1200DF808C /* UIKit.framework */; };
 		668B649419B7AB1200DF808C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 668B649219B7AB1200DF808C /* InfoPlist.strings */; };
 		668B649619B7AB1200DF808C /* LifeThreadsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 668B649519B7AB1200DF808C /* LifeThreadsAppTests.m */; };
+		668B64A019B7AE4700DF808C /* white-abstract-pattern-laminate-counterop-texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668B649F19B7AE4700DF808C /* white-abstract-pattern-laminate-counterop-texture.jpg */; };
+		668B64AC19B7B0F400DF808C /* ViewControllerLT.m in Sources */ = {isa = PBXBuildFile; fileRef = 668B64AB19B7B0F400DF808C /* ViewControllerLT.m */; };
+		668B64AF19B7B10E00DF808C /* ViewControllerU.m in Sources */ = {isa = PBXBuildFile; fileRef = 668B64AE19B7B10E00DF808C /* ViewControllerU.m */; };
+		668B64B219B7B24300DF808C /* UIImageViewLT1.m in Sources */ = {isa = PBXBuildFile; fileRef = 668B64B119B7B24300DF808C /* UIImageViewLT1.m */; };
+		668B64B519B7B4A900DF808C /* ViewControllerLT1.m in Sources */ = {isa = PBXBuildFile; fileRef = 668B64B419B7B4A900DF808C /* ViewControllerLT1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		668B649119B7AB1200DF808C /* LifeThreadsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LifeThreadsAppTests-Info.plist"; sourceTree = "<group>"; };
 		668B649319B7AB1200DF808C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		668B649519B7AB1200DF808C /* LifeThreadsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeThreadsAppTests.m; sourceTree = "<group>"; };
+		668B649F19B7AE4700DF808C /* white-abstract-pattern-laminate-counterop-texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "white-abstract-pattern-laminate-counterop-texture.jpg"; sourceTree = "<group>"; };
+		668B64AA19B7B0F400DF808C /* ViewControllerLT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerLT.h; path = ../ViewControllerLT.h; sourceTree = "<group>"; };
+		668B64AB19B7B0F400DF808C /* ViewControllerLT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerLT.m; path = ../ViewControllerLT.m; sourceTree = "<group>"; };
+		668B64AD19B7B10E00DF808C /* ViewControllerU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerU.h; sourceTree = "<group>"; };
+		668B64AE19B7B10E00DF808C /* ViewControllerU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerU.m; sourceTree = "<group>"; };
+		668B64B019B7B24300DF808C /* UIImageViewLT1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewLT1.h; sourceTree = "<group>"; };
+		668B64B119B7B24300DF808C /* UIImageViewLT1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewLT1.m; sourceTree = "<group>"; };
+		668B64B319B7B4A900DF808C /* ViewControllerLT1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLT1.h; sourceTree = "<group>"; };
+		668B64B419B7B4A900DF808C /* ViewControllerLT1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLT1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +126,17 @@
 		668B647019B7AB1200DF808C /* LifeThreadsApp */ = {
 			isa = PBXGroup;
 			children = (
+				668B647C19B7AB1200DF808C /* Main.storyboard */,
+				668B64B319B7B4A900DF808C /* ViewControllerLT1.h */,
+				668B64B419B7B4A900DF808C /* ViewControllerLT1.m */,
+				668B64B019B7B24300DF808C /* UIImageViewLT1.h */,
+				668B64B119B7B24300DF808C /* UIImageViewLT1.m */,
+				668B64AA19B7B0F400DF808C /* ViewControllerLT.h */,
+				668B64AB19B7B0F400DF808C /* ViewControllerLT.m */,
+				668B64AD19B7B10E00DF808C /* ViewControllerU.h */,
+				668B64AE19B7B10E00DF808C /* ViewControllerU.m */,
 				668B647919B7AB1200DF808C /* AppDelegate.h */,
 				668B647A19B7AB1200DF808C /* AppDelegate.m */,
-				668B647C19B7AB1200DF808C /* Main.storyboard */,
 				668B647F19B7AB1200DF808C /* ViewController.h */,
 				668B648019B7AB1200DF808C /* ViewController.m */,
 				668B648219B7AB1200DF808C /* Images.xcassets */,
@@ -126,6 +148,7 @@
 		668B647119B7AB1200DF808C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				668B649F19B7AE4700DF808C /* white-abstract-pattern-laminate-counterop-texture.jpg */,
 				668B647219B7AB1200DF808C /* LifeThreadsApp-Info.plist */,
 				668B647319B7AB1200DF808C /* InfoPlist.strings */,
 				668B647619B7AB1200DF808C /* main.m */,
@@ -231,6 +254,7 @@
 				668B648319B7AB1200DF808C /* Images.xcassets in Resources */,
 				668B647519B7AB1200DF808C /* InfoPlist.strings in Resources */,
 				668B647E19B7AB1200DF808C /* Main.storyboard in Resources */,
+				668B64A019B7AE4700DF808C /* white-abstract-pattern-laminate-counterop-texture.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668B64B219B7B24300DF808C /* UIImageViewLT1.m in Sources */,
+				668B64AC19B7B0F400DF808C /* ViewControllerLT.m in Sources */,
 				668B648119B7AB1200DF808C /* ViewController.m in Sources */,
+				668B64B519B7B4A900DF808C /* ViewControllerLT1.m in Sources */,
+				668B64AF19B7B10E00DF808C /* ViewControllerU.m in Sources */,
 				668B647B19B7AB1200DF808C /* AppDelegate.m in Sources */,
 				668B647719B7AB1200DF808C /* main.m in Sources */,
 			);
@@ -456,6 +484,7 @@
 				668B649B19B7AB1200DF808C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		668B649C19B7AB1200DF808C /* Build configuration list for PBXNativeTarget "LifeThreadsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +493,7 @@
 				668B649E19B7AB1200DF808C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
